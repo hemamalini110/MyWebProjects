@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-areas: 
+    'header header header'
+    'nav main aside'
+    'footer footer footer';
+    grid-template-columns: 0.5fr 4fr 0.5fr;
+    grid-template-rows: 50px 4fr 50px;
+ 
+    
+}
+#des{
+    padding:30px;
+    border:black 2px groove;
+    margin:0px 30px ;
+    font-size:17px;
+    font-family: Georgia, 'Times New Roman', Times, ; 
+    text-align: center;
+    background:linear-gradient(to right,rgb(124, 124, 124),white,white,rgb(124, 124, 124));
+    font-weight: 500;
+}
+header{
+    display: flex;
+    grid-area: header;
+    text-align:left;
+    align-content: center;
+    margin-left: 10px;
+    border-bottom: rgb(82, 81, 81) 0.2px solid;
+    background:linear-gradient(to right,white,white,white, rgb(87, 86, 86))
+
+}
+.logo{
+    max-width: 70px;
+}
+nav{
+    grid-area: nav;
+    background-color: whitesmoke;
+}
+main{
+    grid-area: main;
+}
+.container{
+    width: auto;
+    height: auto;
+    display:grid;
+    grid-template-areas: 
+    'des des des'
+    'img1 img2 img3';  
+    place-items: center ;
+    gap: 20px 10px;
+    margin-top: 70px;
+     
+}
+#des{
+    grid-area:des;
+}
+.img1{
+    grid-area:img1;
+}
+.img2{
+    grid-area:img2;
+}
+.img3{
+    grid-area:img3;
+}
+
+.art1,.art2,.art3{
+
+    max-inline-size: 350px;
+   
+}
+
+aside{
+    grid-area: aside;
+    background-color: whitesmoke;
+}
+footer{
+    grid-area: footer;
+    border-top: rgb(82, 81, 81) 0.2px solid;
+    background:linear-gradient(to left,white,white,white, rgb(87, 86, 86))
+
+
+}
