@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-header {
+  background: linear-gradient(to right,gray,black,#282c34,gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height:100px;
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  gap:40px 20px;
+  padding-top: 50px;
+}
+.grid-item{
+  display:-moz-box;
+  align-items: center;
+  margin:10px 10px;
+  padding:auto;
+
+}
+.block1,.block2,.block3{
+  
+  margin-left: 50px;
+  border: black 2px solid;
+  width:150px;
+  height: 150px;
+  align-items:end;
+}
+.btn-1{
+  background-color:rgb(94, 235, 94);
+  align-items: center;
+  margin-right: 50px;
+}
+.btn-2{
+  background-color:rgb(231, 76, 76);
+  align-items: center;
+  margin-right: 175px;
+}
