@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+  column-gap: 50px;
+  place-content: center;
+  
+}
+.increment{
+  padding:10px 20px;
+  background-color: forestgreen;
+  border:3px whitesmoke groove;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+
+}
+.decrement{
+  padding:10px 20px;
+  background-color: darksalmon;
+  border:3px whitesmoke groove;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+.count{
+  padding-top: 10px;
+}
+.App{
+  text-align: center;
+  padding-top: 10%;
+}
+.title{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white
+}
+.count{
+  font-size: 40px
+
+}
+body{
+  background-color: darkcyan;
+
+}
+#status{
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+}
